@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Server.Domain", "Oscilloscope.Server.Domain\Oscilloscope.Server.Domain.csproj", "{A6F486CC-49A8-4B4B-95AF-5F0939AD55BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Server.Application", "Oscilloscope.Server.Application\Oscilloscope.Server.Application.csproj", "{E65E9EB0-D92E-4918-8E3A-07C2A4049F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Server.Infrastructure", "Oscilloscope.Server.Infrastructure\Oscilloscope.Server.Infrastructure.csproj", "{95872C61-4261-4B87-9AB6-88BBC0C5A80B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Server.Api", "Oscilloscope.Server.Api\Oscilloscope.Server.Api.csproj", "{4DCE4EF7-3958-4950-B1B5-936F61573744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Server.Tests", "Oscilloscope.Server.Tests\Oscilloscope.Server.Tests.csproj", "{9EA9AD2D-8B03-4267-A8E7-1D37C4E00DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6F486CC-49A8-4B4B-95AF-5F0939AD55BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F486CC-49A8-4B4B-95AF-5F0939AD55BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F486CC-49A8-4B4B-95AF-5F0939AD55BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F486CC-49A8-4B4B-95AF-5F0939AD55BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65E9EB0-D92E-4918-8E3A-07C2A4049F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65E9EB0-D92E-4918-8E3A-07C2A4049F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65E9EB0-D92E-4918-8E3A-07C2A4049F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65E9EB0-D92E-4918-8E3A-07C2A4049F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95872C61-4261-4B87-9AB6-88BBC0C5A80B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95872C61-4261-4B87-9AB6-88BBC0C5A80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95872C61-4261-4B87-9AB6-88BBC0C5A80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95872C61-4261-4B87-9AB6-88BBC0C5A80B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCE4EF7-3958-4950-B1B5-936F61573744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCE4EF7-3958-4950-B1B5-936F61573744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCE4EF7-3958-4950-B1B5-936F61573744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCE4EF7-3958-4950-B1B5-936F61573744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA9AD2D-8B03-4267-A8E7-1D37C4E00DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA9AD2D-8B03-4267-A8E7-1D37C4E00DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA9AD2D-8B03-4267-A8E7-1D37C4E00DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA9AD2D-8B03-4267-A8E7-1D37C4E00DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

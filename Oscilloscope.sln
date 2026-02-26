@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oscilloscope.Client", "Oscilloscope.Client", "{E411D722-85BB-43F8-82D4-5D3C98BF796B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Client.Ui", "Oscilloscope.Client\Oscilloscope.Client.Ui\Oscilloscope.Client.Ui.csproj", "{603D5B58-F635-4C67-8E2A-1637D2DBBD60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Client.Application", "Oscilloscope.Client\Oscilloscope.Client.Application\Oscilloscope.Client.Application.csproj", "{484BF98F-DE26-484A-906A-888A516481EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Client.Infrastructure", "Oscilloscope.Client\Oscilloscope.Client.Infrastructure\Oscilloscope.Client.Infrastructure.csproj", "{25F68EB5-B523-4D67-BF01-C4AB4AC75818}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oscilloscope.Emulator", "Oscilloscope.Emulator", "{0B4FA2D1-1817-4207-B1CD-224E5BBA1AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Emulator", "Oscilloscope.Emulator\Oscilloscope.Emulator\Oscilloscope.Emulator.csproj", "{F57EF534-1F7E-472D-B00D-19D611EC9DC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oscilloscope.Server", "Oscilloscope.Server", "{030E0F63-CB6F-4DF0-AEEC-6AE6F7B4ED85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Server.Api", "Oscilloscope.Server\Oscilloscope.Server.Api\Oscilloscope.Server.Api.csproj", "{F330E79F-45F6-4682-9A5F-9C4488E4E1F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Server.Application", "Oscilloscope.Server\Oscilloscope.Server.Application\Oscilloscope.Server.Application.csproj", "{FD711D7E-38A9-4345-852C-18F59AA92E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Server.Domain", "Oscilloscope.Server\Oscilloscope.Server.Domain\Oscilloscope.Server.Domain.csproj", "{4A22A005-DC07-4069-8A99-F086EABCAB3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Server.Infrastructure", "Oscilloscope.Server\Oscilloscope.Server.Infrastructure\Oscilloscope.Server.Infrastructure.csproj", "{C123DE52-484D-40C5-8BC9-31460A4661EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oscilloscope.Server.Tests", "Oscilloscope.Server\Oscilloscope.Server.Tests\Oscilloscope.Server.Tests.csproj", "{1DF7FEDD-C510-422E-BAFF-B36FFC7DD329}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{603D5B58-F635-4C67-8E2A-1637D2DBBD60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603D5B58-F635-4C67-8E2A-1637D2DBBD60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603D5B58-F635-4C67-8E2A-1637D2DBBD60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603D5B58-F635-4C67-8E2A-1637D2DBBD60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484BF98F-DE26-484A-906A-888A516481EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484BF98F-DE26-484A-906A-888A516481EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484BF98F-DE26-484A-906A-888A516481EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484BF98F-DE26-484A-906A-888A516481EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25F68EB5-B523-4D67-BF01-C4AB4AC75818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F68EB5-B523-4D67-BF01-C4AB4AC75818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F68EB5-B523-4D67-BF01-C4AB4AC75818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F68EB5-B523-4D67-BF01-C4AB4AC75818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57EF534-1F7E-472D-B00D-19D611EC9DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57EF534-1F7E-472D-B00D-19D611EC9DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57EF534-1F7E-472D-B00D-19D611EC9DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57EF534-1F7E-472D-B00D-19D611EC9DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F330E79F-45F6-4682-9A5F-9C4488E4E1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F330E79F-45F6-4682-9A5F-9C4488E4E1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F330E79F-45F6-4682-9A5F-9C4488E4E1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F330E79F-45F6-4682-9A5F-9C4488E4E1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD711D7E-38A9-4345-852C-18F59AA92E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD711D7E-38A9-4345-852C-18F59AA92E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD711D7E-38A9-4345-852C-18F59AA92E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD711D7E-38A9-4345-852C-18F59AA92E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A22A005-DC07-4069-8A99-F086EABCAB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A22A005-DC07-4069-8A99-F086EABCAB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A22A005-DC07-4069-8A99-F086EABCAB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A22A005-DC07-4069-8A99-F086EABCAB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C123DE52-484D-40C5-8BC9-31460A4661EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C123DE52-484D-40C5-8BC9-31460A4661EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C123DE52-484D-40C5-8BC9-31460A4661EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C123DE52-484D-40C5-8BC9-31460A4661EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF7FEDD-C510-422E-BAFF-B36FFC7DD329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF7FEDD-C510-422E-BAFF-B36FFC7DD329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF7FEDD-C510-422E-BAFF-B36FFC7DD329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF7FEDD-C510-422E-BAFF-B36FFC7DD329}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{603D5B58-F635-4C67-8E2A-1637D2DBBD60} = {E411D722-85BB-43F8-82D4-5D3C98BF796B}
+		{484BF98F-DE26-484A-906A-888A516481EE} = {E411D722-85BB-43F8-82D4-5D3C98BF796B}
+		{25F68EB5-B523-4D67-BF01-C4AB4AC75818} = {E411D722-85BB-43F8-82D4-5D3C98BF796B}
+		{F57EF534-1F7E-472D-B00D-19D611EC9DC1} = {0B4FA2D1-1817-4207-B1CD-224E5BBA1AD1}
+		{F330E79F-45F6-4682-9A5F-9C4488E4E1F7} = {030E0F63-CB6F-4DF0-AEEC-6AE6F7B4ED85}
+		{FD711D7E-38A9-4345-852C-18F59AA92E49} = {030E0F63-CB6F-4DF0-AEEC-6AE6F7B4ED85}
+		{4A22A005-DC07-4069-8A99-F086EABCAB3A} = {030E0F63-CB6F-4DF0-AEEC-6AE6F7B4ED85}
+		{C123DE52-484D-40C5-8BC9-31460A4661EE} = {030E0F63-CB6F-4DF0-AEEC-6AE6F7B4ED85}
+		{1DF7FEDD-C510-422E-BAFF-B36FFC7DD329} = {030E0F63-CB6F-4DF0-AEEC-6AE6F7B4ED85}
+	EndGlobalSection
+EndGlobal
